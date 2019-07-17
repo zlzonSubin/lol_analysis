@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+
+.row { margin: 15px 0; }
+.box { height: 100%;
+	   background-color: antiquewhite;
+	   border-radius: 25px;
+	   text-align: center;
+	   line-height: 150px;
+	   color:  black;	  }
+
+@media screen and (min-width: 768px) and (max-width: 970px) {
+	.row :nth-child(1) { margin-bottom: 15px; }
+	.row :nth-child(2) { margin-bottom: 15px; }
+}
+
+@media screen and (max-width: 768px) {
+	.row>div { margin-bottom: 15px; }
+}
